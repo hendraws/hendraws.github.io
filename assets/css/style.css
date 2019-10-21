@@ -1,0 +1,110 @@
+html {
+	position: relative;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+footer {
+	padding: 10px;
+}
+.navbar-light .navbar-brand {
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white; 
+
+}
+
+
+#home {
+	background-color: #E1FAFC;
+	min-height: 650px;
+	padding-top: 6%;
+	margin-top: 3%;
+
+}
+
+#pendidikan, #portfolio{
+	background-color: #E1FAFC;
+}
+
+.text-home {
+	padding-top: 1%;
+	padding-bottom: 10%;
+}
+
+.tombol	{
+	margin: 1%;
+}
+span {
+	color: #840CBA;
+	font-weight: bold;
+}
+
+#profile {
+	background-color: #F2F5F7;
+	padding-top: 10px;
+}
+
+
+#pendidikan, #portfolio{
+	padding-top: 50px;
+	min-height: 700px;
+}
+
+#gambar {
+	height: 450px;
+}
+#contact .icon img{
+	width: 50px;
+}
+
+.row {
+	margin : 5px;
+}	
+
+.skil img{
+	height: 75px;
+	
+}
+.skil img .logo-skill{
+	margin: 5px;
+	padding: 10px;
+
+}
+.judul {
+	margin: 2%;
+	padding: 1%	;
+}
+
+hr {
+  width: 250px;
+  border-top: 4px solid #666;
+}
+
+.portfolio .thumbnail{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: 0.5s;
+}
+
+.portfolio .thumbnail.muncul{
+	opacity : 1;
+	transform: translate(0,0);
+}
+
+
+.pTengah{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: 0.5s;
+}
+
+.pTengah.pMuncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
